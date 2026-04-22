@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Academic transcript Template
+% Author: Cembalo Gabriele
+% Personal Page: http://gcembalo.github.io
+% License: MIT
+%
+% This template is written by Cembalo Gabriele.
+%
+% For errors, suggestions, or improvements, please contact:
+% Email: g70362643@gmail.com
+%
+% Version 1.2
+% Last update: 2026-04-22
+%
+% ------------------------- Template description ---------------------------- %
+%
+% This is a basic Academic Transcription written during my MSc in theoretical 
+% physics seen the necessity to apply to some Summer School.
+%
+% To complete your Academic Transcript you can simply compile all the fields, 
+% which is pretty simple. The other thing you have to do is choose one of 
+% the two option, based on your necessity.
+%
+% There is no additional files, all you need is in this main file. I tried to
+% comment all the code and the new command.
+%
+% Good work and good luck.
+%
+
+%//////////////////////////////////////////////////////////////////////////////
+%                          Packages and preamble                             //
+%//////////////////////////////////////////////////////////////////////////////
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage[shortlabels]{enumitem}
+\usepackage{verbatim}
+\usepackage{booktabs}
+\usepackage{multicol}
+
+\usepackage{hyperref}
+\usepackage{xcolor}
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+\definecolor{darkred}{RGB}{200,0,0}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkred,
+    filecolor=darkred,
+    urlcolor=darkred,
+}
+
+\geometry{margin=2.5cm}
+\setlength{\parindent}{0pt} %definisci lo spazio di indentazione
+\setlength{\parskip}{1pt} %definisci lo spazio tra i paragrafi
+\setlist{itemsep=.001mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{\textbf{Academic Transcript} \\ \textbf{MSc in Something}}
+\author{Name Surname}
+\date{\today}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\maketitle 
+
+% You can add this line if the application need the official transcript, but 
+% in a different language.
+% This is the translation from italian of the official academic transcript (see the following pages). This is not an official transcription, but just an english version of it.
+
+
+% -------------------------------- Version 1 -------------------------------- %
+
+The option that you can use are: \textit{Registered, Awaiting Official Registration, Attending}.
+
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|p{0.3\textwidth}|c|c||c|c|}
+        \bottomrule
+        \rule{0ex}{3ex}
+        \textbf{Course} & \textbf{ECTS} & \textbf{Date} & \textbf{Grade/30} & \textbf{Status} \\[1ex]
+        \toprule
+        \bottomrule
+        \hline
+        Exam 1 & 6 & 22-04-2026 & 30L & Registered \\
+        \hline
+        Exam 2 & 6 & 22-04-2026 & 30 & Registered \\
+        \hline
+        Exam 3 & 6 & 22-04-2026 & 29 & Registered \\
+        \hline
+        Exam 4 & 6 & 22-04-2026 & 28 & Registered \\
+        \hline
+        Exam 5 & 6 & 22-04-2026 & 27 & Registered \\
+        \hline
+        Exam 6 & 6 & 22-04-2026 & 26 & Registered \\
+        \hline
+        Exam 7 & 6 & 22-04-2026 & 25 & Registered \\
+        \hline
+        Exam 8 & 6 & 22-04-2026 & 24 & Registered \\
+        \hline
+        Exam 9 & 6 & 22-04-2026 & 23 & Registered \\
+        \hline
+        Exam 10 & 6 & 22-04-2026 & 22 & Registered \\
+        \hline
+        Thesis & 6 & 22-04-2026 & Supervisor: Marco Regis & \href{link}{Thesis} \\
+        \toprule
+    \end{tabular}
+\end{table}
+\hfill \textbf{Average grades}: 26.40/30
+
+
+% -------------------------------- Version 2 -------------------------------- %
+
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|c|p{0.3\textwidth}|c|c||c|}
+        \bottomrule
+        \rule{0ex}{3ex}
+        \textbf{Academic year} & \textbf{Course} & \textbf{ECTS} & \textbf{Date} & \textbf{Grade/30} \\[1ex]
+        \toprule
+        \bottomrule
+        \hline
+        I & Exam 1 & 6 & 22-04-2026 & 30L \\
+        \hline
+        I & Exam 2 & 6 & 22-04-2026 & 30 \\
+        \hline
+        I & Exam 3 & 6 & 22-04-2026 & 29 \\
+        \hline
+        I & Exam 4 & 6 & 22-04-2026 & 28 \\
+        \hline
+        I & Exam 5 & 6 & 22-04-2026 & 27 \\
+        \hline
+        I & Exam 6 & 6 & 22-04-2026 & 26 \\
+        \hline
+        I & Exam 7 & 6 & 22-04-2026 & 25 \\
+        \hline
+        I & Exam 8 & 6 & 22-04-2026 & 24 \\
+        \hline
+        I & Exam 9 & 6 & 22-04-2026 & 23 \\
+        \hline
+        I & Exam 10 & 6 & 22-04-2026 & 22 \\
+        \hline
+        III & Thesis & 6 & Supervisor: Marco Regis & \href{link}{Thesis} \\
+        \toprule
+    \end{tabular}
+\end{table}
+\hfill \textbf{Average grades (weighted)}: 26.40/30
+
+
+\end{document}
